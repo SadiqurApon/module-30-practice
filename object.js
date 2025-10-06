@@ -34,4 +34,5 @@ for (let key in parson){
     console.log(`key : ${key} value: ${parson[key]}`);
 }
 
-
+const students = ["apon", "rifa", "anonno", "alif"];
+console.log(...students)
