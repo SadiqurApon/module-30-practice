@@ -6,12 +6,16 @@ const products = [
     {id:5, name: "xiaomi", color: "black", price: 1100, brand: "xiaomi"}
 ];
 
+// using find mathod
+
+const findProduct = products.find(p => p.id === 2);
+console.log(findProduct);
 
 //using forEach mathod
-
-products.forEach(product => {
-    console.log(product);
-})
+// forEach kono kichu return kore na
+// products.forEach(product => {
+//     console.log(product);
+// })
 
 // using map mathod
 
