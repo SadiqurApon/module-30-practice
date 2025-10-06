@@ -6,6 +6,10 @@ const products = [
     {id:5, name: "xiaomi", color: "black", price: 1100, brand: "xiaomi"}
 ];
 
+const newProducts = products.filter(p => p.id!=3);
+console.log(newProducts);
+
+
 const product = products.find(p => p.id ===5);
 console.log(product);
 
