@@ -6,10 +6,16 @@ const products = [
     {id:5, name: "xiaomi", color: "black", price: 1100, brand: "xiaomi"}
 ];
 
+// using filter Mathod
+
+const newProducts = products.filter(p => p.name === "iphone");
+console.log(newProducts);
+
+
 // using find mathod
 
-const findProduct = products.find(p => p.id === 2);
-console.log(findProduct);
+// const findProduct = products.find(p => p.id === 2);
+// console.log(findProduct);
 
 //using forEach mathod
 // forEach kono kichu return kore na
